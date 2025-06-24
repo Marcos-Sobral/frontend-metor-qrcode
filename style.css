@@ -39,7 +39,7 @@ main{
 
 .main-container img{
     display: flex;
-    width: 15rem;
+    width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -69,15 +69,12 @@ main{
     text-align: center;
 }
 
-@media screen and (max-width: 900px) {
+
+@media screen and (max-width: 800px) {
 
     .main-container{
         width: 90vw;
         padding: 3%;
-    }
-    
-    .main-container img{
-        width: 20rem;
     }
     
     .main-container-content{
